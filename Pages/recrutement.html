@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr | en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Styles/recrutement.css">
+    <title>SNI Transport</title>
+    <link rel="shortcut icon" href="../Images/favicon.ico">
+
+</head>
+<body>
+<!--  NAVBAR -->
+<div class="bg-nav bg-dark">
+    <div class="container">
+        <nav class="navbar navbar-expand-sm  navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <img src="../Images/SNI.png" alt="Logo" style="width:80px;">
+            </a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Pages/logistiques.html">SNI LOGISTIQUE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SNI TRANSPORT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Pages/overseas.html">SNI OVERSEAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Pages/tarifs.html">NOS TARIFS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Pages/recrutement.html">NOUS REJOINDRE</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<!--  NAVBAR  FIN !-->
+
+<!--  SLOGAN !-->
+        <div class="col-xs-12">
+            <div class="card text-white ">
+                <img class="img-responsive" src="../Images/bg2.jpg">
+                <div>
+                    <p class="sloganSlide"><span>SNI TRANSPORT</span><br>Logistique et Transport  </p>
+                </div>
+            </div>
+        </div>
+<!--  SLOGAN  FIN !-->
+
+<!--  OFFRE !-->
+<main class="fluid-contenu">
+    <div class="container nopad pad-xs pad-sm">
+        <div class="row relative corps">
+            <div class="col-md-12 nopad">
+
+                <script type="text/javascript">
+                    jQuery(document).ready( function() {
+                        var catalogue_type = 'catalogue.list';
+                        var catalogue_list_id = '25';
+                        if(catalogue_type == 'catalogue.list'){ // ---- CHANGEMENT PAR RAPPORT GARAGE
+                            jQuery('#menu_principal').find('li.menu-item-'+ catalogue_list_id).addClass("active");
+                            jQuery('#menu_principal').find('li.menu-item-'+ catalogue_list_id).parent().parent().addClass("active");
+                        }
+                    });
+                </script>
+
+                <div class="cat-liste catalogue-1">
+                    <h1>Nos Offres</h1>
+
+                    <div class="nopad pad-xs pad-sm">
+                        <div class="row modele-liste" itemscope="" >
+                            <meta itemprop="itemListOrder" content="Descending">
+                            <meta itemprop="name" content="Offres">
+
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="item catalogue-21" itemprop="itemListElement" itemscope="" >
+                                    <!-- ********** MODELE *********** -->
+
+                                    <h3>				Chauffeurs Véhicules Légers (VL) - Livreurs, Monteurs H/F				</h3>
+                                    <p>				<span>Profil recherché : </span> EXPERIENCE + DE 1 ANS 				</p>
+
+
+                                    <!-- ********** MODELE *********** -->
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="item catalogue-18" itemprop="itemListElement" itemscope="" >
+                                    <!-- ********** MODELE *********** -->
+
+                                    <h3>				Chauffeurs Poids Lourds (PL) - Livreurs, Monteurs H/F				</h3>
+                                    <p>				<span>Profil recherché : </span> EXPERIENCE + DE 1 ANS				</p>
+
+
+                                    <!-- ********** MODELE *********** -->
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div><!-- .row -->
+    </div><!-- .container -->
+</main>
+<!--  OFFRE  FIN !-->
+
+<!-- CANDIDATURE !-->
+<form method="post" action="send.php" enctype="multipart/form-data">
+    <fieldset class=" text-center">
+        <legend>Candidature</legend>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <dl>
+                        <dt><label for="civilite">Civilité :</label></dt>
+                        <dd>
+                            <select id="civilite" name="civilite">
+                                <option value="melle">Mlle</option>
+                                <option value="mme">Mme</option>
+                                <option value="m">M.</option>
+                            </select>
+                        </dd>
+                        <dt><label for="nom">Nom :</label></dt>
+                        <dd><input type="text" id="nom" name="nom" value=""/></dd>
+                        <dt><label for="prenom">Prénom :</label></dt>
+                        <dd><input type="text" id="prenom" name="prenom" value=""/></dd>
+                        <dt><label for="telephone">Téléphone :</label></dt>
+                        <dd><input type="text" id="telephone" name="telephone" value=""/></dd>
+                        <dt><label for="email">Email :</label></dt>
+                        <dd><input type="text" id="email" name="email" value=""/></dd>
+                    </dl>
+                </div>
+                <div class="col-md-6 text-center">
+                    <dl>
+                        <dt><label for="adresse">Adresse :</label></dt>
+                        <dd><textarea id="adresse" name="adresse" rows="3" cols="26"></textarea></dd>
+                        <dt><label for="codepostal">Code postal :</label></dt>
+                        <dd><input type="text" id="codepostal" name="codepostal" value=""/></dd>
+                        <dt><label for="ville">Ville :</label></dt>
+                        <dd><input type="text" id="ville" name="ville" value="" /></dd>
+                    </dl>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <dl>
+                        <dt><label for="cv">CV :</label></dt>
+                        <dd><input type="file" id="cv" name="cv" /></dd>
+                        <dd class="info">Votre fichier doit etre de la forme cv-nom-prenom ainsi qu'être au format doc ou pdf.</dd>
+                        <dt><label for="remarque">Lettre de Motivation :</label></dt>
+                        <dd><textarea  id="remarque" name="remarque" rows="8" cols="75"></textarea></dd>
+                        <dt></dt>
+                        <dd><button type="submit">Envoyer</button></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+</form>
+<!-- CANDIDATURE FIN !-->
+
+<!-- FOOTER !-->
+<section id="footer">
+    <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+            <div class="col-md-12 text-center">
+
+                <p><i class="fa fa-home"></i> 88/90 Route de Roissy - 93290 TREMBLAY EN FRANCE</p>
+                <p><i class="fa fa-phone"></i> 01 72 99 23 25 ou 09 71 21 53 03</p>
+                <p><i class="fa fa-envelope"></i> snitransport77@gmail.com</p>
+                <p>Contrat assurance Responsabilité civile des professionels du transport n°5905176504</p>
+                <p>SARL au capital de 24 000.00 € - Siret : 827 743 246 00015 RCS Bobigny</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p class="h6">&copy Copyright 2018<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank"></a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- FOOTER FIN !-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
