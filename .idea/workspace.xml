@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="84eeb5ba-ef50-4270-a715-4f1c58568e67" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Images/SNI.png" afterPath="$PROJECT_DIR$/Images/SNI.png" />
-      <change beforePath="$PROJECT_DIR$/Js/code.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Pages/logistiques.html" afterPath="$PROJECT_DIR$/Pages/logistiques.html" />
       <change beforePath="$PROJECT_DIR$/Pages/overseas.html" afterPath="$PROJECT_DIR$/Pages/overseas.html" />
-      <change beforePath="$PROJECT_DIR$/Pages/recrutement.html" afterPath="$PROJECT_DIR$/Pages/recrutement.html" />
-      <change beforePath="$PROJECT_DIR$/Pages/tarifs.html" afterPath="$PROJECT_DIR$/Pages/tarifs.html" />
-      <change beforePath="$PROJECT_DIR$/Pages/transports.html" afterPath="$PROJECT_DIR$/Pages/transports.html" />
+      <change beforePath="$PROJECT_DIR$/Styles/styles.css" afterPath="$PROJECT_DIR$/Styles/styles.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="100" column="36" lean-forward="false" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
+            <state relative-caret-position="-121">
+              <caret line="162" column="40" lean-forward="true" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -33,6 +28,16 @@
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#0;n#div#3;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Styles/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="123" column="25" lean-forward="false" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overseas.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="overseas.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pages/overseas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="151" column="77" lean-forward="false" selection-start-line="151" selection-start-column="77" selection-end-line="151" selection-end-column="77" />
+            <state relative-caret-position="386">
+              <caret line="128" column="44" lean-forward="false" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -97,10 +102,11 @@
       <list>
         <option value="$PROJECT_DIR$/Pages/logistiques.html" />
         <option value="$PROJECT_DIR$/Pages/transports.html" />
-        <option value="$PROJECT_DIR$/Pages/overseas.html" />
         <option value="$PROJECT_DIR$/Pages/tarifs.html" />
         <option value="$PROJECT_DIR$/Pages/recrutement.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Styles/styles.css" />
+        <option value="$PROJECT_DIR$/Pages/overseas.html" />
       </list>
     </option>
   </component>
@@ -111,7 +117,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.0" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="58" />
     <option name="y" value="23" />
     <option name="width" value="1198" />
@@ -139,6 +145,11 @@
             <path>
               <item name="Site-Web-SNI" type="b2602c69:ProjectViewProjectNode" />
               <item name="Site-Web-SNI" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Site-Web-SNI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Site-Web-SNI" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Styles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -179,15 +190,15 @@
       <option name="presentableId" value="Default" />
       <updated>1530871648469</updated>
       <workItem from="1530871650291" duration="2040000" />
-      <workItem from="1531299640504" duration="2272000" />
+      <workItem from="1531299640504" duration="3923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4312000" />
+    <option name="totallyTimeSpent" value="5963000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="23" width="1198" height="698" extended-state="0" />
+    <frame x="58" y="23" width="1198" height="698" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -291,14 +302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/overseas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="151" column="77" lean-forward="false" selection-start-line="151" selection-start-column="77" selection-end-line="151" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/tarifs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -331,10 +334,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="123" column="25" lean-forward="false" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="100" column="36" lean-forward="false" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
+        <state relative-caret-position="-121">
+          <caret line="162" column="40" lean-forward="true" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -342,6 +353,14 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#0;n#div#2;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#a#0;n#div#3;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/overseas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="128" column="44" lean-forward="false" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

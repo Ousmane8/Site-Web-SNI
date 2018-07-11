@@ -20,6 +20,10 @@ li a:hover:not(.active) {
         text-align: center;
     }
 }
+@media (min-width: 576px)
+    .container {
+        max-width: 670px;
+    }
 /* NAVBAR  FIN */
 
 
@@ -117,7 +121,7 @@ li a:hover:not(.active) {
     text-align: center;
 }
 .highlightCount .countAnimation {
-    background: #007b5e !important;
+    background: #9e9e9ec7 !important;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -176,7 +180,7 @@ li a:hover:not(.active) {
 }
 .highlightCount .countAnim .bgCount3 {
     background: url(../Images/count3.png) no-repeat 20px 12px;
-    padding: 15px 0 0 30px;
+    padding: 50px 0 0 30px;
 }
 .highlightCount .countAnim .bgCount4 {
     background: url(../Images/count4.png) no-repeat 10px 11px;
@@ -196,6 +200,7 @@ li a:hover:not(.active) {
 /* PARTENAIRE*/
 #brands-logo{
     padding: 60px 0;
+    background: #007b5e;
 }
 #brands-logo .col-md-12 h3 {
     font-family: 'florencesansregular';
