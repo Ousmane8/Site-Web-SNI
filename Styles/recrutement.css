@@ -53,6 +53,7 @@ li a:hover:not(.active) {
 .fluid-contenu {
     position: relative;
     background: url(../Images/bgCont.jpg) repeat-x center top;
+    background-color: rgba(180, 179, 9, 0.32);
 }
 @media (min-width: 992px){
     .container {
@@ -182,7 +183,7 @@ form button{
 }
 fieldset{
     padding: 5px 0;
-    background-color: lightslategrey;
+    background-color: #92bff6;
 }
 legend{
     font-weight: bold;
@@ -203,12 +204,12 @@ legend{
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #327c31;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
-    background: #007b5e !important;
+    background: #327c31 !important;
 }
 #footer p {
     color: white;

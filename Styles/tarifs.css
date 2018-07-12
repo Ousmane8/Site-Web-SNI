@@ -1,5 +1,6 @@
 body {
     font-family: "sans-serif";
+    background-color: rgba(180, 179, 9, 0.32);
 }
 
 /* NAVBAR */
@@ -32,7 +33,7 @@ font-family : Verdana, sans-serif;
 
 
 #image{
-	text-align: center;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -42,12 +43,12 @@ font-family : Verdana, sans-serif;
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #327c31;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
-    background: #007b5e !important;
+    background: #327c31 !important;
 }
 #footer p {
     color: white;
@@ -106,4 +107,4 @@ section .section-title {
     }
 }
 
-/* FOOTER FIN*/
+/* FOOTER FIN*/ 

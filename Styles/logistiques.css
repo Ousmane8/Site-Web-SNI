@@ -38,8 +38,8 @@ li a:hover:not(.active) {
 
 .main {
     flex: 3;
-    border-top: 5px solid #b71d96;
-    border-bottom: 10px solid #b9a95a;
+    border-top: 5px solid #327c31;
+    border-bottom: 10px solid #92bff6;
 }
 
 .main h2 {
@@ -71,8 +71,8 @@ li a:hover:not(.active) {
 .sidebar {
     padding: 20px;
     flex: 1;
-    border-top: 10px solid #b9a95a;
-    background-color: lightgray;
+    border-top: 10px solid #92bff6;
+    background-color: rgba(180, 179, 9, 0.32);
 
 }
 .sidebar h3 {
@@ -113,12 +113,12 @@ li a:hover:not(.active) {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #327c31;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
-    background: #007b5e !important;
+    background: #327c31 !important;
 }
 #footer p {
     color: white;
