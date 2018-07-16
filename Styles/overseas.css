@@ -112,12 +112,12 @@ li a:hover:not(.active) {
 
 section .section-title {
     text-align: center;
-    color: #327c31;
+    color: darkslategrey;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
-    background: #327c31 !important;
+    background: #343a40!important;
 }
 #footer p {
     color: white;

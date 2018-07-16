@@ -41,7 +41,7 @@ li a:hover:not(.active) {
 .module {
     position: relative;
     padding: 70px 0px 70px 0px;
-    background-color: #92bff6;
+    background-color: lightslategrey;
 }
 .col-sm-4{
     position: relative;
@@ -76,8 +76,8 @@ li a:hover:not(.active) {
 .services .service-item .fa{
     width: 110px;
     height: 110px;
-    color: white;
-    background:#327c31 !important;
+    color: cornsilk;
+    background: cadetblue !important;
     font-size: 45px;
     padding-top: 25px;
     border-radius: 100px;
@@ -231,7 +231,7 @@ li a:hover:not(.active) {
 }
 
 section#contact {
-    background-color: #92bff6;
+    background-color: cadetblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -311,12 +311,12 @@ section#contact .text-danger {
 
 section .section-title {
     text-align: center;
-    color: #327c31;
+    color: darkslategrey;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
-    background: #327c31 !important;
+    background: #343a40!important;
 }
 #footer p {
     color: white;
