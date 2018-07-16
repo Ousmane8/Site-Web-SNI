@@ -9,8 +9,12 @@ body {
 }
 
 li a:hover:not(.active) {
-    background-color: rgba(6, 6, 6, 1);
+    background-color: rgba(146, 191, 246, 0.7);
     color: white;
+    border-radius: 10px;
+}
+.bg-dark {
+    background-color: #727068!important;
 }
 
 @media (min-width: 576px) {
