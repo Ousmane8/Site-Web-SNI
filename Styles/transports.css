@@ -4,7 +4,7 @@ body {
 
 /* NAVBAR */
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    color: black;
 }
 
 li a:hover:not(.active) {
@@ -13,7 +13,7 @@ li a:hover:not(.active) {
     border-radius: 10px;
 }
 .bg-dark {
-    background-color: #727068!important;
+    background-color: #6495ED !important;
 }
 
 @media (min-width: 576px) {
@@ -49,7 +49,7 @@ li a:hover:not(.active) {
 .main h2 {
     font-size: 32px;
     margin: 1rem 0;
-    color: #50c6db;
+    color: #6495ED;
     text-align: center;
 }
 .main h4 {
@@ -82,7 +82,7 @@ li a:hover:not(.active) {
 .sidebar h3 {
     font-size: 32px;
     margin: 1rem 0;
-    color: #50c6db;
+    color: #6495ED;
     text-align: center;
 }
 
