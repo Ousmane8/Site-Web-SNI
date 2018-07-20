@@ -14,8 +14,7 @@ li a:hover:not(.active) {
     border-radius: 10px;
 }
 .bg-dark {
-   background-color: #6495ED!important;
-
+    background-color: #6495ED!important;
 }
 
 @media (min-width: 576px) {
@@ -38,6 +37,7 @@ li a:hover:not(.active) {
 /* CAROUSEL */
 .carousel-inner img {
     width: 100%;
+    height: 100%;
 }
 /* CAROUSEL FIN*/
 
@@ -204,8 +204,6 @@ li a:hover:not(.active) {
 /* CHIFFRE FIN*/
 
 /* PARTENAIRE*/
-
-
 #brands-logo{
     padding: 60px 0;
     background: rgba(180, 179, 9, 0.32);
