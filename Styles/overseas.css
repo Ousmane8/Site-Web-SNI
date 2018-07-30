@@ -42,7 +42,7 @@ li a:hover:not(.active) {
 
 .main {
     flex: 3;
-    border-top: 5px solid #d18c25;
+    border-top: 10px solid #d18c25;
     border-bottom: 10px solid #d18c25;
 }
 
